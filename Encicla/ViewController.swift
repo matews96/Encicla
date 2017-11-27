@@ -72,7 +72,7 @@ class ViewController: UIViewController,  GMSMapViewDelegate {
         
 
         view.name.text = stations[Int(marker.accessibilityLabel!)!].name
-        view.direction.text = stations[Int(marker.accessibilityLabel!)!].address.lowercased().capitalized.replacingOccurrences(of: "Con Carrera", with: "#").replacingOccurrences(of: " - Carrera ", with: " # ").replacingOccurrences(of: " Con Calle ", with: " # ")
+        view.direction.text = stations[Int(marker.accessibilityLabel!)!].address.lowercased().capitalized.replacingOccurrences(of: "Con Carrera", with: "#").replacingOccurrences(of: " - Carrera ", with: " # ").replacingOccurrences(of: " Con Calle ", with: " # ").replacingOccurrences(of: " Con ", with: " # ")
         print(stations[Int(marker.accessibilityLabel!)!].address.lowercased().capitalized)
         view.instructions.text = stations[Int(marker.accessibilityLabel!)!].description
 
