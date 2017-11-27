@@ -8,5 +8,14 @@
 
 import Foundation
 import UIKit
+import GoogleMaps
 
-public class WindowView: UIViewController, GMSDe
+public class WindowView: UIView {
+
+    @IBOutlet weak var name: UILabel!
+    
+    @IBOutlet weak var direction: UILabel!
+    
+    @IBOutlet weak var instructions: UITextView!
+    
+}

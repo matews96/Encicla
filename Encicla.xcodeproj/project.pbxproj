@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A21C519F1FC7E3B6009DB380 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21C519E1FC7E3B6009DB380 /* Facade.swift */; };
+		A21C51A11FC86A2A009DB380 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21C51A01FC86A2A009DB380 /* Model.swift */; };
+		A21C51A31FC8F979009DB380 /* WindowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21C51A21FC8F979009DB380 /* WindowView.xib */; };
+		A21C51A51FC90496009DB380 /* WindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21C51A41FC90495009DB380 /* WindowView.swift */; };
+		A23ADEC01FC6BB50005776DF /* mapConf.json in Resources */ = {isa = PBXBuildFile; fileRef = A23ADEBF1FC6BB4F005776DF /* mapConf.json */; };
 		A242917C1FC24840007C0AF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A242917B1FC24840007C0AF4 /* AppDelegate.swift */; };
 		A242917E1FC24840007C0AF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A242917D1FC24840007C0AF4 /* ViewController.swift */; };
 		A24291811FC24840007C0AF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A242917F1FC24840007C0AF4 /* Main.storyboard */; };
@@ -37,6 +42,11 @@
 /* Begin PBXFileReference section */
 		4F96D70028924B82DBBA21C0 /* Pods-Encicla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Encicla.release.xcconfig"; path = "Pods/Target Support Files/Pods-Encicla/Pods-Encicla.release.xcconfig"; sourceTree = "<group>"; };
 		5F4BFE05CEE1F5FD9820E7BD /* Pods_Encicla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Encicla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21C519E1FC7E3B6009DB380 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
+		A21C51A01FC86A2A009DB380 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A21C51A21FC8F979009DB380 /* WindowView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WindowView.xib; sourceTree = "<group>"; };
+		A21C51A41FC90495009DB380 /* WindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowView.swift; sourceTree = "<group>"; };
+		A23ADEBF1FC6BB4F005776DF /* mapConf.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mapConf.json; sourceTree = "<group>"; };
 		A24291781FC24840007C0AF4 /* Encicla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Encicla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A242917B1FC24840007C0AF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A242917D1FC24840007C0AF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,8 +131,13 @@
 		A242917A1FC24840007C0AF4 /* Encicla */ = {
 			isa = PBXGroup;
 			children = (
+				A21C51A21FC8F979009DB380 /* WindowView.xib */,
+				A21C51A41FC90495009DB380 /* WindowView.swift */,
 				A242917B1FC24840007C0AF4 /* AppDelegate.swift */,
 				A242917D1FC24840007C0AF4 /* ViewController.swift */,
+				A21C51A01FC86A2A009DB380 /* Model.swift */,
+				A21C519E1FC7E3B6009DB380 /* Facade.swift */,
+				A23ADEBF1FC6BB4F005776DF /* mapConf.json */,
 				A242917F1FC24840007C0AF4 /* Main.storyboard */,
 				A24291821FC24840007C0AF4 /* Assets.xcassets */,
 				A24291841FC24840007C0AF4 /* LaunchScreen.storyboard */,
@@ -259,6 +274,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A23ADEC01FC6BB50005776DF /* mapConf.json in Resources */,
+				A21C51A31FC8F979009DB380 /* WindowView.xib in Resources */,
 				A24291861FC24840007C0AF4 /* LaunchScreen.storyboard in Resources */,
 				A24291831FC24840007C0AF4 /* Assets.xcassets in Resources */,
 				A24291811FC24840007C0AF4 /* Main.storyboard in Resources */,
@@ -345,8 +362,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A21C51A51FC90496009DB380 /* WindowView.swift in Sources */,
+				A21C519F1FC7E3B6009DB380 /* Facade.swift in Sources */,
 				A242917E1FC24840007C0AF4 /* ViewController.swift in Sources */,
 				A242917C1FC24840007C0AF4 /* AppDelegate.swift in Sources */,
+				A21C51A11FC86A2A009DB380 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,7 +534,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TNXDZHT5MY;
 				INFOPLIST_FILE = Encicla/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mateo.Encicla;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -529,7 +551,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TNXDZHT5MY;
 				INFOPLIST_FILE = Encicla/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mateo.Encicla;
 				PRODUCT_NAME = "$(TARGET_NAME)";
