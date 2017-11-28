@@ -18,4 +18,5 @@ public class WindowView: UIView {
     
     @IBOutlet weak var instructions: UITextView!
     
+    @IBOutlet weak var availability: UILabel!
 }

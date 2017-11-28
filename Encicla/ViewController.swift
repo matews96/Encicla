@@ -25,10 +25,9 @@ class ViewController: UIViewController,  GMSMapViewDelegate {
             self.stations = result
             
             for (index, station) in self.stations.enumerated() {
-                if (station.bikes > 0) {
-                    self.markers.append(self.createmarker(station: station, index: index, availability: false))
-                }
-                self.markers.append(self.createmarker(station: station, index: index, availability: true))
+ 
+                    self.markers.append(self.createmarker(station: station, index: index))
+
             }
             self.createMap(markers: self.markers)
         }
@@ -75,18 +74,24 @@ class ViewController: UIViewController,  GMSMapViewDelegate {
         view.direction.text = stations[Int(marker.accessibilityLabel!)!].address.lowercased().capitalized.replacingOccurrences(of: "Con Carrera", with: "#").replacingOccurrences(of: " - Carrera ", with: " # ").replacingOccurrences(of: " Con Calle ", with: " # ").replacingOccurrences(of: " Con ", with: " # ")
         print(stations[Int(marker.accessibilityLabel!)!].address.lowercased().capitalized)
         view.instructions.text = stations[Int(marker.accessibilityLabel!)!].description
+        
+        view.availability.text = String(stations[Int(marker.accessibilityLabel!)!].bikes) + " ciclas de " + String(stations[Int(marker.accessibilityLabel!)!].capacity)
 
-        view.isHidden = false
+
         
         
 
         return view
     }
     
-    func createmarker (station: Station, index: Int, availability: Bool)->GMSMarker {
+    func createmarker (station: Station, index: Int)->GMSMarker {
         let position = CLLocationCoordinate2D(latitude: Double(station.lat)!, longitude: Double(station.lon)!)
         let marker = GMSMarker(position: position)
-        marker.icon = availability ? GMSMarker.markerImage(with: .green) : GMSMarker.markerImage(with: .red)
+        let a = UIImageView(image: #imageLiteral(resourceName: "available"))
+        let u = UIImageView(image: #imageLiteral(resourceName: "unavailable"))
+        a.frame = CGRect(x: 0, y: 0, width: 36, height: 36)
+        u.frame = CGRect(x: 0, y: 0, width: 36, height: 36)
+        marker.iconView = station.bikes>0 ? a : u
         marker.accessibilityLabel = String(index)
         return marker
     }
@@ -94,7 +99,5 @@ class ViewController: UIViewController,  GMSMapViewDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 

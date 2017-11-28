@@ -33,6 +33,7 @@ struct Station: Decodable {
     let picture: String
     let capacity: Int
     let bikes: Int
-    var serial: Int?
+    let closed: Int
+
     
 }
