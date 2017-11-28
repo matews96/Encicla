@@ -1,9 +1,0 @@
-version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
-options: "cd293dd344e4794a0641cf8e381f9d51"
-build_time: [1511912196, 25590000]
-inputs:
-  "/Users/mateo.echeverri/Desktop/Encicla/Encicla/WindowView.swift": [1511899649, 0]
-  "/Users/mateo.echeverri/Desktop/Encicla/Encicla/Facade.swift": [1511812447, 0]
-  "/Users/mateo.echeverri/Desktop/Encicla/Encicla/ViewController.swift": [1511912195, 0]
-  "/Users/mateo.echeverri/Desktop/Encicla/Encicla/AppDelegate.swift": [1511812447, 0]
-  "/Users/mateo.echeverri/Desktop/Encicla/Encicla/Model.swift": [1511899649, 0]
