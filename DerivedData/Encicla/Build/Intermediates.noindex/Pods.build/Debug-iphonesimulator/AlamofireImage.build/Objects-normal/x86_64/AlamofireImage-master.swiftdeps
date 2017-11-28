@@ -1,0 +1,13 @@
+version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
+options: "cb5b60af65a8f1f7524bfc5939aa2066"
+build_time: [1511813022, 955967000]
+inputs:
+  "/Users/mateo.echeverri/Desktop/Encicla/Pods/AlamofireImage/Source/AFIError.swift": [1511812447, 0]
+  "/Users/mateo.echeverri/Desktop/Encicla/Pods/AlamofireImage/Source/Image.swift": [1511812447, 0]
+  "/Users/mateo.echeverri/Desktop/Encicla/Pods/AlamofireImage/Source/ImageCache.swift": [1511812447, 0]
+  "/Users/mateo.echeverri/Desktop/Encicla/Pods/AlamofireImage/Source/ImageDownloader.swift": [1511812447, 0]
+  "/Users/mateo.echeverri/Desktop/Encicla/Pods/AlamofireImage/Source/ImageFilter.swift": [1511812447, 0]
+  "/Users/mateo.echeverri/Desktop/Encicla/Pods/AlamofireImage/Source/Request+AlamofireImage.swift": [1511812447, 0]
+  "/Users/mateo.echeverri/Desktop/Encicla/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift": [1511812447, 0]
+  "/Users/mateo.echeverri/Desktop/Encicla/Pods/AlamofireImage/Source/UIImage+AlamofireImage.swift": [1511812447, 0]
+  "/Users/mateo.echeverri/Desktop/Encicla/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift": [1511812447, 0]

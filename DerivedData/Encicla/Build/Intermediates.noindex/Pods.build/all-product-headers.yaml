@@ -1,0 +1,87 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/mateo.echeverri/Desktop/Encicla/DerivedData/Encicla/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/mateo.echeverri/Desktop/Encicla/DerivedData/Encicla/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/mateo.echeverri/Desktop/Encicla/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mateo.echeverri/Desktop/Encicla/DerivedData/Encicla/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/mateo.echeverri/Desktop/Encicla/DerivedData/Encicla/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mateo.echeverri/Desktop/Encicla/DerivedData/Encicla/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AlamofireImage-Swift.h",
+          'external-contents': "/Users/mateo.echeverri/Desktop/Encicla/DerivedData/Encicla/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AlamofireImage-umbrella.h",
+          'external-contents': "/Users/mateo.echeverri/Desktop/Encicla/Pods/Target Support Files/AlamofireImage/AlamofireImage-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mateo.echeverri/Desktop/Encicla/DerivedData/Encicla/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/mateo.echeverri/Desktop/Encicla/DerivedData/Encicla/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/AlamofireImage.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mateo.echeverri/Desktop/Encicla/DerivedData/Encicla/Build/Products/Debug-iphonesimulator/Pods_Encicla.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Encicla-umbrella.h",
+          'external-contents': "/Users/mateo.echeverri/Desktop/Encicla/Pods/Target Support Files/Pods-Encicla/Pods-Encicla-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Encicla-Swift.h",
+          'external-contents': "/Users/mateo.echeverri/Desktop/Encicla/DerivedData/Encicla/Build/Products/Debug-iphonesimulator/Pods_Encicla.framework/Headers/Pods_Encicla-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mateo.echeverri/Desktop/Encicla/DerivedData/Encicla/Build/Products/Debug-iphonesimulator/Pods_Encicla.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/mateo.echeverri/Desktop/Encicla/DerivedData/Encicla/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Encicla.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

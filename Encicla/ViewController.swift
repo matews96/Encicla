@@ -70,7 +70,7 @@ class ViewController: UIViewController,  GMSMapViewDelegate {
         guard let view = nib.instantiate(withOwner: nil, options: nil).first as? WindowView else {print("fuck"); return nil}
         
 
-        view.name.text = stations[Int(marker.accessibilityLabel!)!].name
+        view.name.text = ("Estación: " + stations[Int(marker.accessibilityLabel!)!].name + ", tipo " + stations[Int(marker.accessibilityLabel!)!].type).replacingOccurrences(of: "automatica", with: "automática")
         view.direction.text = stations[Int(marker.accessibilityLabel!)!].address.lowercased().capitalized.replacingOccurrences(of: "Con Carrera", with: "#").replacingOccurrences(of: " - Carrera ", with: " # ").replacingOccurrences(of: " Con Calle ", with: " # ").replacingOccurrences(of: " Con ", with: " # ")
         print(stations[Int(marker.accessibilityLabel!)!].address.lowercased().capitalized)
         view.instructions.text = stations[Int(marker.accessibilityLabel!)!].description
@@ -78,7 +78,7 @@ class ViewController: UIViewController,  GMSMapViewDelegate {
         view.availability.text = String(stations[Int(marker.accessibilityLabel!)!].bikes) + " ciclas de " + String(stations[Int(marker.accessibilityLabel!)!].capacity)
 
 
-        
+        view.backgroundColor = .clear
         
 
         return view
@@ -89,8 +89,9 @@ class ViewController: UIViewController,  GMSMapViewDelegate {
         let marker = GMSMarker(position: position)
         let a = UIImageView(image: #imageLiteral(resourceName: "available"))
         let u = UIImageView(image: #imageLiteral(resourceName: "unavailable"))
-        a.frame = CGRect(x: 0, y: 0, width: 36, height: 36)
-        u.frame = CGRect(x: 0, y: 0, width: 36, height: 36)
+        let size = 31.0
+    a.frame = CGRect(x: 0, y: 0, width: size, height: size*1.5)
+       u.frame = CGRect(x: 0, y: 0, width: size, height: size*1.5)
         marker.iconView = station.bikes>0 ? a : u
         marker.accessibilityLabel = String(index)
         return marker

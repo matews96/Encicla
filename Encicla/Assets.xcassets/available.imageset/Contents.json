@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "bicycle.png",
+      "filename" : "Welcome to Vectr (4).png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "bicycle-1.png",
+      "filename" : "Welcome to Vectr (4)-1.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "bicycle-2.png",
+      "filename" : "Welcome to Vectr (4)-2.png",
       "scale" : "3x"
     }
   ],

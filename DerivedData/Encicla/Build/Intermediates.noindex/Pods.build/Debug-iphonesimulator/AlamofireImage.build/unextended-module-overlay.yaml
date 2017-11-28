@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/mateo.echeverri/Desktop/Encicla/DerivedData/Encicla/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/mateo.echeverri/Desktop/Encicla/DerivedData/Encicla/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/AlamofireImage.build/unextended-module.modulemap',
+    }]
+  }]
+}
